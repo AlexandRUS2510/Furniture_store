@@ -7,7 +7,7 @@ class FurnitureStore
     static Dictionary<string, (int quantity, decimal price)> warehouse = new Dictionary<string, (int, decimal)>();
     static async Task Main()
     {
-        InitializeWarehouse(); //инициируем каталог мебели
+        InitializeWarehouse(); // Инициируем Вархаус
         Stopwatch stopwatch = new Stopwatch();
         stopwatch.Start();
         List<Task> tasks = new List<Task>();
